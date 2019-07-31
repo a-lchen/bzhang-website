@@ -97,10 +97,12 @@ let renderHome = () => {
 let renderPub = () => {
   $("#main").hide().html(`
     <h1 class="heading">`+ publicationPreviewTitle + `</h1>
-    <div class="grey-text">
+    <div class="grey-text pub-content">
       ` + publicationPreviewContent + `
-        <br>
-        My full list of publications can be found below:
+        </div>
+        <div class="grey-text">
+          <br>
+          My full list of publications can be found below:
         </div>
         <br><br>
         <div class='arrow-container' onClick="$('#details').show(); renderPublicationDetails(); scrollDown()">
@@ -172,30 +174,42 @@ let renderGRB = () => {
 window.onload = () => {
   document.getElementById("about-but").addEventListener('click', () => {
     event.preventDefault();
+    scrollUp();
+    setTimeout(function(){ $('#details').hide() }, 500);
     history.pushState(null,null, '#about');
     renderAbout();
   });
   document.getElementById("research-but").addEventListener('click', () => {
     event.preventDefault();
+    scrollUp();
+    setTimeout(function(){ $('#details').hide() }, 500);
     history.pushState(null,null, '#research');
     renderResearch();
   });
   document.getElementById("teaching-but").addEventListener('click', () => {
     event.preventDefault();
+    scrollUp();
+    setTimeout(function(){ $('#details').hide() }, 500);
     history.pushState(null,null, '#teaching');
     renderTeaching();
   });
   document.getElementById("pub-but").addEventListener('click', () => {
     event.preventDefault();
+    scrollUp();
+    setTimeout(function(){ $('#details').hide() }, 500);
     history.pushState(null,null, '#publications');
     renderPub();
   });
   document.getElementById("media-but").addEventListener('click', () => {
     event.preventDefault();
+    scrollUp();
+    setTimeout(function(){ $('#details').hide() }, 500);
     history.pushState(null,null, '#media');
     renderMedia();
   });
   document.getElementById("pfp").addEventListener('click', () => {
+    scrollUp();
+    setTimeout(function(){ $('#details').hide() }, 500);
     history.pushState(null,null, '#');
     renderHome();
   });

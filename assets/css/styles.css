@@ -141,6 +141,16 @@ Home Section styles
     text-transform: uppercase;
 }
 
+.pub-col {
+  padding: 40px;
+}
+
+.pub-content {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
 
 /** Buttons **/
 

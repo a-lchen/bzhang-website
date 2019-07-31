@@ -1,15 +1,15 @@
 let mediaPreviewTitle = "Featured Articles";
 let mediaPreviewContent = `
   <li>
-      Aug. 15, 2018, finished and submitted a new paper on FRB energetics and detectability from high redshifts <a class="text-link" href="https://arxiv.org/abs/1808.05277">(Here)</a>.
+      Aug. 15, 2018, finished and submitted a new paper on FRB energetics and detectability from high redshifts <a target="_blank" class="text-link" href="https://arxiv.org/abs/1808.05277">(Here)</a>.
   </li>
   <br>
   <li>
-      Aug. 15, 2018, a paper with Yuan-Pei Yang accepted for publication in ApJL <a class="text-link" href="https://arxiv.org/abs/1808.05170">(Here)</a>. This paper suggests that the ultimate synchrotron "line of death" is at Fnu ~ nu^{2/3} rather than nu^{1/3}. However, in order to achieve this harder spectrum, one needs to have significant anisotropy in the emission region.
+      Aug. 15, 2018, a paper with Yuan-Pei Yang accepted for publication in ApJL <a target="_blank" class="text-link" href="https://arxiv.org/abs/1808.05170">(Here)</a>. This paper suggests that the ultimate synchrotron "line of death" is at Fnu ~ nu^{2/3} rather than nu^{1/3}. However, in order to achieve this harder spectrum, one needs to have significant anisotropy in the emission region.
   </li>
   <br>
   <li>
-      Jul. 24-27, 2018, attended <a class="text-link" href="http://2018gw.csp.escience.cn/dct/page/1">Workshop on Gravitational Waves</a> in Beijing and gave an invited talk.
+      Jul. 24-27, 2018, attended <a target="_blank" class="text-link" href="http://2018gw.csp.escience.cn/dct/page/1">Workshop on Gravitational Waves</a> in Beijing and gave an invited talk.
   </li>
   <br>
 `;
